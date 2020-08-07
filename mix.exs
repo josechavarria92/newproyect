@@ -18,7 +18,7 @@ defmodule Newproyect3.MixProject do
     ]
   end
  
-  # #Run "mix help deps" to learn about dependencies.
+  #Run "mix help deps" to learn about dependencies.
   defp deps do
     [{:timex, "~> 3.0"}]
   end
