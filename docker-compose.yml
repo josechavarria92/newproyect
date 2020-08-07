@@ -1,0 +1,8 @@
+version: '3.1'
+services:
+    servicioelixir:
+        image: resuelve/phoenix:1.4.10
+        #son archivos que utilizo en mi contenedor pueden estar en cualquier otra carpeta
+        volumes: 
+            - ./:/proyect
+        working_dir:  /proyect
